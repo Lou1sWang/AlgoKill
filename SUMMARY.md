@@ -7,7 +7,7 @@
   * [Path Sum](tree/path-sum.md)
   * [Height and Width](tree/height-and-width.md)
   * [Tree Construction](tree/tree-construction.md)
-  * [Unique BST](tree/unique-bst.md)
+  * [BST](tree/unique-bst.md)
 * [Binary Search](binary-search.md)
 * [String](string.md)
 * [Sliding Windows](sliding-windows.md)

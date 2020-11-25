@@ -85,6 +85,27 @@ class Solution:
 
 ```
 
+#### [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+
+```python
+class Solution:
+    def sumNumbers(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        ans = []
+        self.dfs(root,ans,0)
+        
+        return sum(ans)
+    def dfs(self,root,ans,cur):
+        if not root.left and not root.right:
+            ans.append(cur*10+root.val)
+           
+        if root.left:
+            self.dfs(root.left,ans,cur*10+root.val)
+        if root.right:
+            self.dfs(root.right,ans,cur*10+root.val)
+```
+
 
 
 
