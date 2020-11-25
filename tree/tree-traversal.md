@@ -1,5 +1,7 @@
 # Tree Traversal
 
+Tree Traversal refers to the process of visiting\(checking and/or updating\) each node in a tree data structure, exactly once. Unlike linked lists, which are one-dimensional arrays and can be visited linearly, 
+
 ### [Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)
 
 ```python
